@@ -37,7 +37,14 @@ let stringNumber = String(someNumber)
 
 // 0
 
-let ab = .3
-let ax = Boolean (ab)
+// let ab = .3
+// let ax = Boolean (ab)
 
-console.log(ax);
+// console.log(ax);
+
+
+
+const isLOGGEDINTHREETIMES = "ASADULLAH SIDDIQUI"
+const isLOGGEDINTWOTIMES = Boolean (isLOGGEDINTHREETIMES)
+
+console.log(isLOGGEDINTWOTIMES);
