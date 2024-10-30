@@ -48,8 +48,10 @@ let stringNumber = String(someNumber)
 // const isLOGGEDINTWOTIMES = Boolean (isLOGGEDINTHREETIMES)
 
 // console.log(isLOGGEDINTWOTIMES);
+ 
 
-
+/*
+====((primitive)=>Stack) & ((Non-Primitive)=>Hype))====
 let myChannelName = "ASADULLAH"
 let anothername = myChannelName
 anothername = "Chai WITH ME @@@"
@@ -57,15 +59,29 @@ anothername = "Chai WITH ME @@@"
 console.log(anothername);
 console.log(myChannelName);
 
-
 let userOne = {
     email : "user@abc.com",
     upi : "user@abc.com"
 }
-
 let userTwo = userOne
-
 userTwo.email = "abc@jit.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+*/
+
+
+
+/*
+========== String Methods ===========
+const name = "ASAD "
+const repoCount = 50 
+console.log(`Hello my name is ${name}and my repo Count is ${repoCount}`);
+
+const gameName = new String('Asadullah')
+console.log(gameName.__proto__);
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf("d"));
+*/
