@@ -78,10 +78,33 @@ const name = "ASAD "
 const repoCount = 50 
 console.log(`Hello my name is ${name}and my repo Count is ${repoCount}`);
 
-const gameName = new String('Asadullah')
 console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf("d"));
+
+const newString = gameName.substring(0,4)
+console.log(newString);
+
+const newStringOne =  "  Asadullah  "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https//google.com/asadullah*siddiqui"
+console.log(url.replace( '*' , "-"))
+
+const url = "https//google.com/asadullahsiddiqui"
+console.log(url.includes('asadullah'));
+
+const gameName = new String('Asadullah-name-is')
+console.log(gameName.split('-'));
 */
+
+
+
+
+
+
+
+
