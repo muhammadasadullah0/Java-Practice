@@ -44,7 +44,28 @@ let stringNumber = String(someNumber)
 
 
 
-const isLOGGEDINTHREETIMES = "ASADULLAH SIDDIQUI"
-const isLOGGEDINTWOTIMES = Boolean (isLOGGEDINTHREETIMES)
+// const isLOGGEDINTHREETIMES = "ASADULLAH SIDDIQUI"
+// const isLOGGEDINTWOTIMES = Boolean (isLOGGEDINTHREETIMES)
 
-console.log(isLOGGEDINTWOTIMES);
+// console.log(isLOGGEDINTWOTIMES);
+
+
+let myChannelName = "ASADULLAH"
+let anothername = myChannelName
+anothername = "Chai WITH ME @@@"
+
+console.log(anothername);
+console.log(myChannelName);
+
+
+let userOne = {
+    email : "user@abc.com",
+    upi : "user@abc.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abc@jit.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
