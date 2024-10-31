@@ -1,9 +1,9 @@
-let score = "true" // let is consider a multiple times 
+// let is consider a multiple times 
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number (score)
+// let valueInNumber = Number (score)
 
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
@@ -101,10 +101,57 @@ const gameName = new String('Asadullah-name-is')
 console.log(gameName.split('-'));
 */
 
+/*
+// =========== Numbers METHODS ============
+const score = 200 
+console.log(score);
+
+const balance = new Number(200)
+console.log(balance);
+console.log(balance.toString().length);
+console.log(balance.toFixed(2));
+
+const otherNumber = 123.456
+console.log(otherNumber.toPrecision(6));
+
+const hundreds = 100000;
+console.log(hundreds.toLocaleString('PKR'));
+
+*/
+
+/*
+============== MATHS ============== 
+
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(3.6));
+console.log(Math.ceil(4.6));
+console.log(Math.floor(4.9));
+console.log(Math.min(4,3,6,8));
+console.log(Math.max(4,3,6,8));
+console.log(Math.random()*10 + 1);
+*/
 
 
+/* 
+============= Dates ============== 
 
+let newDate = new Date()
+console.log(newDate.getDate());
+console.log(newDate.getFullYear());
+console.log(newDate.getMonth());
+console.log(newDate.getMinutes());
+console.log(newDate.getUTCHours());
+console.log(newDate.getTime());
+console.log(newDate.toLocaleDateString());
+console.log(newDate.toLocaleTimeString());
+console.log(newDate.toISOString());
+console.log(newDate.toJSON());
 
-
-
+console.log(newDate.toLocaleString('default',{
+    weekday: "long",
+    day :"2-digit",
+}))
+    
+*/
 
