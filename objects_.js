@@ -95,8 +95,16 @@ console.log(tinderUser2.hasOwnProperty('isLoggedIn'));
 
 */
 
+// De-structring of Objects//
+/*
+const course = {
+    coursenmae : "js by asad",
+    price : 1000,
+    courseInstructor : "Asad"
+}
 
+// cousre.courseInstructor // This is very offensive way now let's try new !
+const {courseInstructor :instructor} = course
+console.log(instructor);
 
-
-
-
+*/
