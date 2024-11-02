@@ -153,6 +153,5 @@ console.log(newDate.toLocaleString('default',{
     day :"2-digit",
 }))
   
-
 */
 
